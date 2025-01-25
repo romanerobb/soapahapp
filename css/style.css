@@ -90,7 +90,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'roboto', serif;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom:20px;
@@ -485,7 +485,7 @@ iframe {
 
 .navbar-fixed-top {
 	position: absolute!important;
-	background-color: #fff!important;
+	background-color: rgba(0, 0, 0, 0.0)!important; 
 	border-bottom: none;
 	transition: background-color 0.25s ease 0s;
 }
@@ -607,36 +607,26 @@ ul.footer_social li a i:hover {
 /* ========================================================== */
 
 .home-section {
-	width: 100%;
 	position: relative;
-	text-align: center;
-  	padding-top: 240px;
-  	padding-bottom: 200px;
-	background: url(../images/bg10.jpg) top center no-repeat;
-	background-size: cover;
-}
-
-.home-section-overlay{
-	width: 100%;
-	background: #4534c1;
-	opacity: 0.82;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	z-index: 999;
+	overflow: hidden;
+	position: relative;
+  	padding-top: 140px;
+  	padding-bottom: 70px;
+  	background-color: #fff;
 }
 
 .home-section h1{
-    color: #fff;
+    color: #071e55;
 }
 
 .home-section p{
 	margin-bottom: 30px;
-	font-size: 20px;
-	line-height: 32px;
+	max-width: 600px;
+	font-size: 18px;
+	line-height: 30px;
 	font-weight: 400;
-	color: #fff;
+	color: #405263;
 }
 
 /* ========================================================== */
@@ -1273,7 +1263,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 	border: 1px solid #fff;
     box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.37);
 	border-radius: 5px 5px;
-	margin: 10px 10px;
+	margin: 10px 10px 0 10px 0;
 	padding: 20px 30px;
 	display: inline-block;
 	transition: all 0.4s ease-in-out;
@@ -1287,16 +1277,16 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .btn-white-border {
-	color: #fff;
+	color: #1089d4;
 	background: transparent;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: 600;
-	border: 1px solid #fff;
+	border: 1px solid #1089d4;
 	border-radius: 5px 5px;
 	margin: 10px 10px;
-	padding: 20px 30px;
+	padding: 15px 30px;
 	display: inline-block;
 	transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -1306,7 +1296,6 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 	color: #0883fb;
 	background-color: #ffffff;
 	border: 1px solid #fff;
-    box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.37);
 }
 
 .btn-white i, .btn-white-border i {
@@ -1684,17 +1673,17 @@ ul.partners-mentions li img:hover {
 @media (max-width: 768px) {
 
 	.home-section {
-		padding-top: 120px;
-	  	padding-bottom: 110px;
-	}
-
-	.home-section a.btn-white {
-		margin-bottom: 60px;
+		padding-top: 50px;
+	  	padding-bottom: 50px;
 	}
 
 	#newsletter-form #email_newsletter {
         width: 80%;
     	max-width: 320px;
+    }
+
+    .hero-image{
+    	padding-top: 70px;
     }
 
     .padding-top-120 {
@@ -1758,10 +1747,6 @@ ul.partners-mentions li img:hover {
 	.section-white.small-padding-bottom, .section-grey.small-padding-bottom {
 	    padding: 60px 0 50px 0!important;
 	}
-
-	.btn-white, .btn-white-border {
-	margin: 10px 10px!important;
-}
 
 }
 
