@@ -1,7 +1,7 @@
 <?php
 $field_email = $_POST['email'];
 
-$mail_to = 'to@email.com';
+$mail_to = 'biz@soapahapp.com';
 $subject = 'Message from a site visitor '.$field_email;
 
 $body_message .= 'E-mail: '.$field_email."\n";
