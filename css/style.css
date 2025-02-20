@@ -547,6 +547,23 @@ iframe {
 	background: #1e90ff;
 }
 
+.navbar-fixed-top .navbar-nav > li > a.discover-btn1 {
+	color: #2D336B!important;
+	background: #FFCDB2;
+	border: 1px solid #1e90ff;
+	border-radius: 8px 8px;
+	padding: 12px 18px!important;
+	margin-left: 10px;
+	margin-right: 15px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.navbar-fixed-top .navbar-nav > li > a.discover-btn1:hover {
+	border: 1px solid #FFB200;
+	color: #F5F5F5!important;
+	background: #E52020;
+}
+
 /* ========================================================== */
 /* 			                03. FOOTER                        */
 /* ========================================================== */
